@@ -1,0 +1,14 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.10.102'
+  Validating architecture
+  Validating architecture
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(200,5): warning : Current project architecture 'ARM' is incompatible with the remote system architecture 'x64' ('x64'). Please switch the project architecture to 'x64' in Configuration Manager. If you are cross-compiling you can ignore this warning.
+  Starting remote build
+  Compiling sources:
+  Linking objects
+C:\Users\onnet\Desktop\directory\source\my source\clientThread\client\client\obj\ARM\Debug\client.o : error : In function `main':
+C:\Users\onnet\Desktop\directory\source\my source\clientThread\client\client\client.c(66): error : undefined reference to `pthread_create'
+C:\Users\onnet\Desktop\directory\source\my source\clientThread\client\client\client.c(67): error : undefined reference to `pthread_create'
+C:\Users\onnet\Desktop\directory\source\my source\clientThread\client\client\client.c(69): error : undefined reference to `pthread_join'
+C:\Users\onnet\Desktop\directory\source\my source\clientThread\client\client\client.c(70): error : undefined reference to `pthread_join'
+collect2 : error : ld returned 1 exit status

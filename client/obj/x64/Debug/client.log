@@ -1,0 +1,22 @@
+﻿  원격 프로젝트 디렉터리를 정리하는 중
+  소스의 유효성을 검사하는 중
+  소스를 '192.168.10.135'(으)로 원격으로 복사하는 중
+  아키텍처의 유효성을 검사하는 중
+  아키텍처의 유효성을 검사하는 중
+  원격 빌드를 시작하는 중
+  소스를 컴파일하는 중:
+  client.c
+C:\Users\onnet\source\repos\client\client\client.c(29,40): warning : conversion to ‘uint16_t’ from ‘int’ may alter its value [-Wconversion]
+C:\Users\onnet\source\repos\client\client\client.c(29,40): warning :      client_addr.sin_port = htons(  atoi(argv[1]) );
+C:\Users\onnet\source\repos\client\client\client.c(29,40): warning :                                         ^
+C:\Users\onnet\source\repos\client\client\client.c(41,31): warning : conversion to ‘int’ from ‘size_t’ may alter its value [-Wconversion]
+C:\Users\onnet\source\repos\client\client\client.c(41,31): warning :      int messageLenght = strlen(message);
+C:\Users\onnet\source\repos\client\client\client.c(41,31): warning :                                ^
+C:\Users\onnet\source\repos\client\client\client.c(48,9): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\onnet\source\repos\client\client\client.c(48,9): warning :          send(socket_fd, message ,messageLenght, 0);
+C:\Users\onnet\source\repos\client\client\client.c(48,9): warning :          ^
+C:\Users\onnet\source\repos\client\client\client.c(16,20): warning : unused variable ‘len’ [-Wunused-variable]
+C:\Users\onnet\source\repos\client\client\client.c(16,20): warning :      int socket_fd, len;
+C:\Users\onnet\source\repos\client\client\client.c(16,20): warning :                     ^
+  개체를 연결하는 중
+  client.vcxproj -> C:\Users\onnet\source\repos\client\client\bin\x64\Debug\client.out
